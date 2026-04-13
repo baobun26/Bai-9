@@ -68,7 +68,7 @@ def delete_city(city_name):
 # ==========================================
 
 # --- GIỮ NGUYÊN (Buổi 1) ---
-API_KEY = "5562519f07a31e9b7a94036194028aeb"  # Ghi chú: HS điền API Key của mình vào đây
+API_KEY = st.secrets{"MY_WEATHER_KEY"]
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
 
